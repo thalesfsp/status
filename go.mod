@@ -1,3 +1,3 @@
 module github.com/thalesfsp/status
 
-go 1.20.2
+go 1.20
