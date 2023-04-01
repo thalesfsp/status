@@ -1,5 +1,9 @@
 package status
 
+//////
+// Const, vars, and types.
+//////
+
 // Status is the status of something.
 type Status string
 
@@ -33,3 +37,12 @@ const (
 	Retried   Status = "retried"
 	Succeeded Status = "succeeded"
 )
+
+//////
+// Methods.
+//////
+
+// Implement the Stringer interface.
+func (s Status) String() string {
+	return string(s)
+}
