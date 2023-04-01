@@ -36,6 +36,12 @@ const (
 	// Metrics.
 	Retried   Status = "retried"
 	Succeeded Status = "succeeded"
+
+	// Errors.
+	Invalid  Status = "invalid"
+	Missing  Status = "missed"
+	NotFound Status = "not found"
+	Required Status = "required"
 )
 
 //////
