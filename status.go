@@ -36,6 +36,7 @@ const (
 	// Metrics.
 	Retried   Status = "retried"
 	Succeeded Status = "succeeded"
+	Total     Status = "total"
 
 	// Errors.
 	Invalid  Status = "invalid"

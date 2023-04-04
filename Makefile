@@ -15,7 +15,6 @@ default: ci
 ###
 
 ci: lint test coverage
-ci-integration: lint test-integration coverage
 
 coverage:
 	@go tool cover -func=coverage.out && echo "Coverage OK"
