@@ -44,6 +44,10 @@ const (
 	Missing  Status = "missed"
 	NotFound Status = "not found"
 	Required Status = "required"
+
+	// Connection
+	Connected    Status = "connected"
+	Disconnected Status = "disconnected"
 )
 
 //////
