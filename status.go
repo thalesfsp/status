@@ -34,6 +34,7 @@ const (
 	Stopped     Status = "stopped"
 
 	// Common for message brokers (pubsub).
+	Emitted    Status = "emitted"
 	Published  Status = "published"
 	Subscribed Status = "subscribed"
 
@@ -48,9 +49,13 @@ const (
 	NotFound Status = "not found"
 	Required Status = "required"
 
-	// Connection
+	// Connection.
 	Connected    Status = "connected"
 	Disconnected Status = "disconnected"
+
+	// Instantiation.
+	Instantiated   Status = "instantiated"
+	Uninstantiated Status = "uninstantiated"
 )
 
 //////
