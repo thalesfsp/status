@@ -8,6 +8,8 @@ package status
 type Status string
 
 const (
+	None Status = "none"
+
 	// Common on displaying.
 	Active   Status = "active"
 	Hidden   Status = "hidden"
@@ -22,9 +24,9 @@ const (
 	Updated   Status = "updated"
 
 	// Common on state machines.
-	None        Status = "none"
 	Canceled    Status = "canceled"
 	Completed   Status = "completed"
+	Done        Status = "done"
 	Failed      Status = "failed"
 	Initialized Status = "initialized"
 	Paused      Status = "paused"
