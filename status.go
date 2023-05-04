@@ -22,6 +22,7 @@ const (
 	Updated   Status = "updated"
 
 	// Common on state machines.
+	None        Status = "none"
 	Canceled    Status = "canceled"
 	Completed   Status = "completed"
 	Failed      Status = "failed"
