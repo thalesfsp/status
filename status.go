@@ -4,6 +4,9 @@ package status
 // Const, vars, and types.
 //////
 
+// Name of the entity.
+const Name = "status"
+
 // Status is the status of something.
 type Status string
 
