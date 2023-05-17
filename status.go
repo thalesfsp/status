@@ -59,6 +59,24 @@ const (
 	// Instantiation.
 	Instantiated   Status = "instantiated"
 	Uninstantiated Status = "uninstantiated"
+
+	// ETL
+	Converted   Status = "converted"
+	Extracted   Status = "extracted"
+	Loaded      Status = "loaded"
+	Processed   Status = "processed"
+	Transformed Status = "transformed"
+
+	// Common on authentication.
+	Authenticated   Status = "authenticated"
+	Authorized      Status = "authorized"
+	Unauthenticated Status = "unauthenticated"
+	Unauthorized    Status = "unauthorized"
+
+	// Common on authorization.
+	Granted  Status = "granted"
+	Revoked  Status = "revoked"
+	Verified Status = "verified"
 )
 
 //////
