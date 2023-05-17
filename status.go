@@ -62,7 +62,9 @@ const (
 
 	// ETL
 	Converted   Status = "converted"
+	Exported    Status = "exported"
 	Extracted   Status = "extracted"
+	Imported    Status = "imported"
 	Loaded      Status = "loaded"
 	Processed   Status = "processed"
 	Transformed Status = "transformed"
