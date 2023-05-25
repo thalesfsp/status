@@ -71,6 +71,8 @@ const (
 
 	// Common on authentication.
 	Authenticated   Status = "authenticated"
+	Authentication  Status = "authentication"
+	Authorization   Status = "authorization"
 	Authorized      Status = "authorized"
 	Unauthenticated Status = "unauthenticated"
 	Unauthorized    Status = "unauthorized"
