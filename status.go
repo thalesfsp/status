@@ -58,7 +58,8 @@ const (
 
 	// Instantiation.
 	Instantiated   Status = "instantiated"
-	Uninstantiated Status = "uninstantiated"
+	Setup          Status = "setup"
+	Uninstantiated Status = "not instantiated"
 
 	// ETL
 	Converted   Status = "converted"
