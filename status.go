@@ -55,6 +55,8 @@ const (
 	// Connection.
 	Connected    Status = "connected"
 	Disconnected Status = "disconnected"
+	Offline      Status = "offline"
+	Online       Status = "online"
 
 	// Instantiation.
 	Instantiated   Status = "instantiated"
