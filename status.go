@@ -23,7 +23,7 @@ const (
 	Created   Status = "created"
 	Deleted   Status = "deleted"
 	Listed    Status = "listed"
-	Retrieved Status = "retreived"
+	Retrieved Status = "retrieved"
 	Updated   Status = "updated"
 
 	// Common on state machines.
