@@ -40,6 +40,7 @@ const (
 	Emitted    Status = "emitted"
 	Published  Status = "published"
 	Subscribed Status = "subscribed"
+	Notified   Status = "notified"
 
 	// Metrics.
 	Retried   Status = "retried"
