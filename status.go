@@ -40,6 +40,7 @@ const (
 	Emitted    Status = "emitted"
 	Published  Status = "published"
 	Subscribed Status = "subscribed"
+	Notified   Status = "notified"
 
 	// Metrics.
 	Retried   Status = "retried"
@@ -55,6 +56,8 @@ const (
 	// Connection.
 	Connected    Status = "connected"
 	Disconnected Status = "disconnected"
+	Offline      Status = "offline"
+	Online       Status = "online"
 
 	// Instantiation.
 	Instantiated   Status = "instantiated"
