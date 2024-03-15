@@ -65,9 +65,12 @@ const (
 	Converted   Status = "converted"
 	Exported    Status = "exported"
 	Extracted   Status = "extracted"
+	Finished    Status = "finished"
 	Imported    Status = "imported"
+	Interrupted Status = "interrupted"
 	Loaded      Status = "loaded"
 	Processed   Status = "processed"
+	Started     Status = "started"
 	Transformed Status = "transformed"
 
 	// Common on authentication.
