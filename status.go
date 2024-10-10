@@ -13,6 +13,10 @@ type Status string
 const (
 	None Status = "none"
 
+	// Common on configuration.
+	Enabled Status  = "enabled"
+	Disabled Status = "disabled"
+
 	// Common on displaying.
 	Active   Status = "active"
 	Hidden   Status = "hidden"
