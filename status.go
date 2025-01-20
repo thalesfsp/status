@@ -14,7 +14,7 @@ const (
 	None Status = "none"
 
 	// Common on configuration.
-	Enabled Status  = "enabled"
+	Enabled  Status = "enabled"
 	Disabled Status = "disabled"
 
 	// Common on displaying.
@@ -42,9 +42,10 @@ const (
 
 	// Common for message brokers (pubsub).
 	Emitted    Status = "emitted"
-	Published  Status = "published"
-	Subscribed Status = "subscribed"
 	Notified   Status = "notified"
+	Published  Status = "published"
+	Received   Status = "received"
+	Subscribed Status = "subscribed"
 
 	// Metrics.
 	Retried   Status = "retried"
