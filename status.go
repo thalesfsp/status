@@ -91,10 +91,11 @@ const (
 
 	// Common on authorization.
 	Approved Status = "approved"
+	Denied   Status = "denied"
 	Granted  Status = "granted"
+	Rejected Status = "rejected"
 	Revoked  Status = "revoked"
 	Verified Status = "verified"
-	Denied Status = "denied"
 )
 
 //////
