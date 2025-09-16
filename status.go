@@ -96,6 +96,7 @@ const (
 	Rejected Status = "rejected"
 	Revoked  Status = "revoked"
 	Verified Status = "verified"
+	Waiting  Status = "waiting"
 )
 
 //////
